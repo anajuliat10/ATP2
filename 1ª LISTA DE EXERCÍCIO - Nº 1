@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+    void iniciar(){
+        printf ("Iniciando sistema...\n");
+    }
+    int main()
+    {
+    iniciar();
+
+    return 0;
+}
