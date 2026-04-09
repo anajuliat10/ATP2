@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+    int calcularDobro(int numero){
+        int resultado = numero*2;
+        return resultado;
+        
+    }
+        int main (){
+            int meuNumero = 10;
+            int dobro;
+             dobro = calcularDobro(meuNumero);
+             
+             printf ("O dobro de %d é %d\n", meuNumero, dobro);
+             
+             return 0;
+            
+        }
