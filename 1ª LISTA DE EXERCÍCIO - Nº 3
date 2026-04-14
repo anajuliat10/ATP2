@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+  int returnSoma (int A, int B){
+        return A + B;
+  }
+  
+  int main (){
+      int n1, n2;
+      printf ("Digite o primeiro valor:");
+      scanf ("%d", &n1);
+      printf ("Digite o segundo valor:");
+      scanf ("%d", &n2);
+      
+      printf (" A soma de %d + %d é: %d",n1,n2, returnSoma(n1, n2));
+      
+      return 0;
+  }
