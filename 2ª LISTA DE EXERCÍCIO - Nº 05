@@ -1,0 +1,12 @@
+#include <stdio.h>
+ 
+ int main() {
+    int x = 10;
+
+    if (x > 5) {
+        int y = 50; 
+        printf("Dentro do if: x = %d, y = %d\n", x, y);
+    }
+    printf("Fora do if: x = %d\n", x);
+return 0;
+}
