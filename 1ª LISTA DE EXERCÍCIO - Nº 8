@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+    int calcularOquadrado (int A){
+        return A * A;
+    }
+    
+    int main (){
+        int numero;
+        printf ("Digite um numero:");
+        scanf ("%d", &numero);
+        printf ("Este numero ao quadrado é: %d", calcularOquadrado(numero));
+        
+        return 0;
+    }
