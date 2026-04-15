@@ -1,0 +1,12 @@
+#include <stdio.h>
+    int x = 10; 
+    void testarEscopo() {
+    int x = 20; 
+        printf("Dentro da funcao: x = %d\n", x);
+}
+    int main() {
+        printf("no main antes da funcao: x = %d\n", x);
+        testarEscopo();
+        printf("no main depois da funcao: x = %d\n", x);
+        return 0;
+}
