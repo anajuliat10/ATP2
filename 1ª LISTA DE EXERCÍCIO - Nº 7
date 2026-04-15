@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+    void comparacaoVouF (int numero){
+        if (numero % 2 ==0){
+            printf ("Este numero é par, portanto, verdadeiro!");
+        } else {
+            printf ("Este numero é ímpar, portanto, falso!");
+        }
+    }
+        
+        int main(){
+            int numero;
+            printf ("Digite o numero:");
+            scanf ("%d", &numero);
+            comparacaoVouF(numero);
+            
+            return 0;
+            
+        }
