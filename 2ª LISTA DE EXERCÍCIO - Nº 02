@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+void alterarValor(int n) {
+    n = n + 10; 
+    printf("Dentro da funcao (copia): %d\n", n);
+}
+int main() {
+  int numero = 5;
+    printf("Antes da funcao: %d\n", numero);
+    alterarValor(numero);
+  printf("Depois da funcao: %d\n", numero);
+ return 0;
+}
