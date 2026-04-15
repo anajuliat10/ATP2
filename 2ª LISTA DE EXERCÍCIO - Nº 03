@@ -1,0 +1,12 @@
+#include <stdio.h>
+void alterarPorReferencia(int *n) {
+    *n = 100;
+    printf("Dentro da funcao: %d\n", *n);
+}
+int main() {
+    int x = 10;
+    printf("antes: %d\n", x);
+    alterarPorReferencia(&x); 
+    printf("depois: %d\n", x);
+    return 0;
+}
